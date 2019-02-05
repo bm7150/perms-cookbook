@@ -1,0 +1,22 @@
+---
+driver:
+  name: vagrant
+  gui: false
+  memory: 2048
+  linked_clone: true
+  transport: winrm
+  box: tas50/windows_2016
+
+provisioner:
+  name: chef_zero
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: Windows2016
+
+suites:
+  - name: perms
+    run_list:
+      - recipe[perms_cookbook::default]

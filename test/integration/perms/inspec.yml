@@ -1,0 +1,9 @@
+name: default
+title: Default Profile
+maintainer: bm7150
+copyright:
+copyright_email:  bm7150@gmail.com
+version: 1.0.0
+license: all_rights
+supports:
+  - os-family: windows
