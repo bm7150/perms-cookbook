@@ -7,7 +7,7 @@ WINDOWS_PERM = {
   change_permissions:               0b001000000000000000000,
   create_directories:               0b000000000000000000100,
   create_files:                     0b000000000000000000010,
-  delete:                           0b000001000000000000000,
+  delete:                           0b000010000000000000000,
   delete_subdirectories_and_files:  0b000000000000001000000,
   execute_file:                     0b000000000000000100000,
   full_control:                     0b111110000000111111111,
